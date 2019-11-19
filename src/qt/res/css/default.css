@@ -11,7 +11,7 @@ margin-left:5px;
 }
 
 QStatusBar {
-color:#ff00ea;
+color:#ffe400;
 background-color:transparent;
 }
 
@@ -34,7 +34,7 @@ background-color:#d2d2d2;
 }
 
 QMenu {
-background-color:#434850;
+background-color:#ff4800;
 }
 
 QMenu::item {
@@ -79,7 +79,7 @@ color:#fff;
 font-size:11px;
 border:1px solid grey;
 border-radius:5px;
-background-color:transparent;
+background-color:#ccff00;
 }
 
 QProgressBar::chunk {
