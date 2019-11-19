@@ -11,7 +11,8 @@ margin-left:5px;
 }
 
 QStatusBar {
-background-color:#434850;
+color:#ff00ea;
+background-color:transparent;
 }
 
 .QFrame {
