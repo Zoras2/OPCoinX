@@ -47,7 +47,7 @@ color:#FFFFFF;
 
 QToolBar {
 background-image: url(':/images/opcx_logo_horizontal');
-border:3px solid transparent;
+border:0px solid transparent;
 padding:0;
 margin:0;
 }
