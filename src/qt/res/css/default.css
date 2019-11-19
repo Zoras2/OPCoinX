@@ -1,7 +1,7 @@
 /* new: bg: 151515, text: ffffff, dark green: #4d6280, fade green: #4d6280, light green: #5d62f4 */
 
 WalletFrame {
-border-image: url(':/images/opcx_logo_horizontal') 0 0 0 0 stretch stretch;
+border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 border-top:0px solid #000;
 margin:0;
 padding:0;
@@ -20,7 +20,7 @@ border:0px solid #fff;
 }
 
 QMenuBar {
-background-color:#fff;
+background-color: url(':/images/opcx_logo_horizontal') 0 0 0 0 stretch stretch;
 }
 
 QMenuBar::item {
