@@ -20,7 +20,7 @@ border:0px solid #fff;
 }
 
 QMenuBar {
-background-color: url(':/images/opcx_logo_horizontal') 0 0 0 0 stretch stretch;
+background-image: url(':/images/opcx_logo_horizontal');
 }
 
 QMenuBar::item {
