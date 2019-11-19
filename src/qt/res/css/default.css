@@ -46,7 +46,7 @@ color:#FFFFFF;
 }
 
 QToolBar {
-background-image: url(':/images/opcx_logo_horizontal') 0 0 0 0 stretch stretch;
+background-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 border:0px solid transparent;
 padding:0;
 margin:0;
