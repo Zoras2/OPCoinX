@@ -355,11 +355,7 @@ QTableWidget {
 QTableWidget:focus, QTableView, QTableView:focus { /* Remove focus outline */
 outline:0;
 background:transparent;
-}
-
-QTreeWidget { /* Tree Background */
-	background-color:#ff00ea;
-	alternate-background-color: #ffe400;
+	alternate-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(255, 255, 255, 80), stop: .95 rgba(255, 255, 255, 80));
 color:#fff;
 }
 
@@ -1476,12 +1472,12 @@ QDialog#CoinControlDialog .QDialogButtonBox#buttonBox QPushButton { /* Coin Cont
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioTreeMode { /* Coin Control Tree Mode Selector */
-	color: #818181;
+	color: #fff;
 	background-color: transparent
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioListMode { /* Coin Control List Mode Selector */
-	color: #818181;
+	color: #fff;
 	background-color: transparent
 }
 
