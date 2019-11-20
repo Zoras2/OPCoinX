@@ -467,6 +467,10 @@ border-radius:3px;
 QDialog {
 background-color: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 }
+AskPassphraseDialog {
+background-color: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
+color:#fff;
+}
 
 QDialog .QTabWidget {
 border-bottom:1px solid #333;
@@ -477,7 +481,7 @@ border: 1px solid #d7d7d7;
 }
 
 QDialog .QTabWidget QTabBar::tab {
-background-color:#ff00ea;
+background-color:#fff;
 color:#333;
 padding-left:10px;
 padding-right:10px;
@@ -495,13 +499,13 @@ border-right: 1px solid #d7d7d7;
 }
 
 QDialog .QTabWidget QTabBar::tab:selected, QDialog .QTabWidget QTabBar::tab:hover {
-background-color:#3c00ff;
+background-color:#b4b4b4;
 color:#333;
 }
 
 QDialog .QTabWidget .QWidget {
-background-color:#ffe400;
-color:#333;
+background-color: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
+color:#fff;
 }
 
 QDialog .QTabWidget .QWidget QAbstractSpinBox {
