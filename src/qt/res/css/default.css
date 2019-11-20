@@ -334,16 +334,16 @@ border:0
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
 background:transparent;
 border:1px solid #333;
-font-size:14px;
+font-size:18px;
 }
 
 QTableView::item { /* Table Item */
-	font-size: 14px;
-	color: #ffe400;
+	font-size: 18px;
+	color: #ffffff;
 }
 
 QTableView::item:selected { /* Table Item Selected */
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57, 97, 80), stop: .95 rgba(0, 57, 97, 80));
 	color: #fff;
 }
 QTableWidget {
