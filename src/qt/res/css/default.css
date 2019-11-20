@@ -1494,6 +1494,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
 background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57, 97, 80), stop: .95 rgba(0, 57, 97, 80));
+
 color:#fff;
 }
 
@@ -1507,7 +1508,7 @@ background-image: url(':/images/qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
 	background-color: #f7f7f7;
-	color: #333
+	color: #fff
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:checked { /* Coin Control Branch Icon */
@@ -1515,7 +1516,7 @@ background-image: url(':/images/qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
 	background-color: #f7f7f7;
-	color: #333
+	color: #fff
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::seperator {
