@@ -465,7 +465,10 @@ border-radius:3px;
 /**************************** DIALOG BOXES **********************************************/
 
 QDialog {
-background-color: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
+	border-image: url(':/images/walletFrame') 0 0 0 0 stretch stretch;
+}
+AskPassphraseDialog {
+	border-image: url(':/images/walletFrame') 0 0 0 0 stretch stretch;
 }
 
 QDialog .QTabWidget {
@@ -477,7 +480,7 @@ border: 1px solid #d7d7d7;
 }
 
 QDialog .QTabWidget QTabBar::tab {
-background-color:#ff00ea;
+background-color:#fff;
 color:#333;
 padding-left:10px;
 padding-right:10px;
@@ -495,12 +498,12 @@ border-right: 1px solid #d7d7d7;
 }
 
 QDialog .QTabWidget QTabBar::tab:selected, QDialog .QTabWidget QTabBar::tab:hover {
-background-color:#3c00ff;
+background-color:#f6f6f6;
 color:#333;
 }
 
 QDialog .QTabWidget .QWidget {
-background-color:#ffe400;
+background-color:#fff;
 color:#333;
 }
 
