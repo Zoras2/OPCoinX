@@ -355,11 +355,12 @@ QTableWidget {
 QTableWidget:focus, QTableView, QTableView:focus { /* Remove focus outline */
 outline:0;
 background:transparent;
-	alternate-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(255, 255, 255, 80), stop: .95 rgba(255, 255, 255, 80));
-color:#fff;
+	alternate-background-color: rgba(255, 255, 255, 25);
+color:#333;
 }
 
 QScrollBar { /* Scroll Bar */
+
 }
 
 QScrollBar:vertical { /* Vertical Scroll Bar Attributes */
@@ -794,9 +795,6 @@ border:0;
 }
 
 /* About Opcx Dialog */
-
-
-
 QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Opcx Contents */
 margin-left:10px;
 }
