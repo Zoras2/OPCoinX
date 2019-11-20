@@ -355,12 +355,15 @@ QTableWidget {
 QTableWidget:focus, QTableView, QTableView:focus { /* Remove focus outline */
 outline:0;
 background:transparent;
+}
+
+QTreeWidget { /* Tree Background */
+	background-color:#00aeff;
 	alternate-background-color: rgba(255, 255, 255, 25);
-color:#333;
+color:#4b2700;
 }
 
 QScrollBar { /* Scroll Bar */
-
 }
 
 QScrollBar:vertical { /* Vertical Scroll Bar Attributes */
@@ -747,11 +750,11 @@ min-width:180px;
 }
 
 QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading { /* Peers Info Header */
-color:#ffe400;
+color:#fff;
 }
 
 QDialog#RPCConsole QTableView#peerWidget::item { /* Peers Table Items */
-color:#ff00ea;
+color:#fff;
 font-size:11px;
 }
 
