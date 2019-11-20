@@ -776,7 +776,7 @@ margin-right:5px;
 }
 
 QDialog#RPCConsole QPushButton#clearButton { /* Console Clear Button */
-background-color:transparent;
+background-color:#f6f6f6;
 padding-left:10px;
 padding-right:10px;
 }
@@ -786,7 +786,7 @@ background-color:#0b97dd;
 }
 
 QDialog#RPCConsole .QGroupBox #line_2 { /* Network Out Line */
-background:#fff;
+background:#ff2525;
 }
 
 /**************************** HELP MENU *************************************************/
@@ -800,7 +800,16 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
+QDialog#Bip38ToolDialog QLabel {
+        color: #000000;
+    }
+    QDialog#MultiSendDialog QLabel {
+        color: #ffffff;
+    }
 /* About Opcx Dialog */
+QDialog#AboutDialog QLabel {
+        color: #000000;
+    }
 QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Opcx Contents */
 margin-left:10px;
 }
