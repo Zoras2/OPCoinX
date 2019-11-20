@@ -747,11 +747,11 @@ min-width:180px;
 }
 
 QDialog#RPCConsole QWidget#tab_peers QLabel#peerHeading { /* Peers Info Header */
-color:#4d6280;
+color:#ffe400;
 }
 
 QDialog#RPCConsole QTableView#peerWidget::item { /* Peers Table Items */
-color:#333;
+color:#ff00ea;
 font-size:11px;
 }
 
@@ -796,7 +796,7 @@ border:0;
 
 /* About Opcx Dialog */
 QDialog#AboutDialog QLabel {
-        color: #000000;
+        color:#ff0000;
     }
 QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Opcx Contents */
 margin-left:10px;
