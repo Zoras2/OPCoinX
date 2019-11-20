@@ -118,7 +118,7 @@ color:#333;
 
 QToolTip {
 background-color:#dedbe5;
-color:#4d6280;
+color:#ffe400;
 }
 
 QTextEdit {
@@ -358,9 +358,9 @@ background:transparent;
 }
 
 QTreeWidget { /* Tree Background */
-	background-color:#00aeff;
+	background-color:transparent;
 	alternate-background-color: rgba(255, 255, 255, 25);
-color:#4b2700;
+color:#fff;
 }
 
 QScrollBar { /* Scroll Bar */
@@ -801,8 +801,7 @@ border:0;
 
 /* About Opcx Dialog */
 QDialog#AboutDialog QLabel {
-        background-color:#333;
-	color:#ff0000;
+        	color:#ff0000;
     }
 QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Opcx Contents */
 margin-left:10px;
