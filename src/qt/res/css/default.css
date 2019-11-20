@@ -1487,12 +1487,12 @@ QDialog#CoinControlDialog .QDialogButtonBox#buttonBox QPushButton { /* Coin Cont
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioTreeMode { /* Coin Control Tree Mode Selector */
-	color: #818181;
+	color: #fff;
 	background-color: transparent
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioListMode { /* Coin Control List Mode Selector */
-	color: #818181;
+	color: #fff;
 	background-color: transparent
 }
 
@@ -1510,7 +1510,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
-background-color:#0b97dd;
+background-color:background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57, 97, 40), stop: .95 rgba(0, 57, 97, 40));
 color:#fff;
 }
 
@@ -1564,7 +1564,7 @@ background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57
 min-width:102px;
 color:#ffffff;
 font-weight:bold;
-font-size:10px;
+font-size:13px;
 padding-right:5px;
 }
 
@@ -1573,7 +1573,7 @@ background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57
 min-width:102px;
 color:#ffffff;
 font-weight:bold;
-font-size:10px;
+font-size:13px;
 padding-right:5px;
 }
 
@@ -1582,7 +1582,7 @@ background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57
 min-width:102px;
 color:#ffffff;
 font-weight:bold;
-font-size:10px;
+font-size:13px;
 padding-right:5px;
 }
 
