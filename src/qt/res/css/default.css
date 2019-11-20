@@ -338,30 +338,24 @@ font-size:11px;
 }
 
 QTableView::item { /* Table Item */
-background-color:#fcfcfc;
-color:#333;
-font-size:10px;
+	font-size: 12px;
+	color: #c2c2c2;
 }
 
 QTableView::item:selected { /* Table Item Selected */
-background-color:#0b97dd;
-color:#fff;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #fff;
 }
-
-QTableWidget { /* Table Background */
-background-color:red; /*#fcfcfc;*/
-border:1px solid #333;
-font-size:11px;
+QTableWidget {
+	background-color: transparent;
+	alternate-background-color: rgba(255, 255, 255, 25);
+	border: 1px solid #333
 }
 
 QTableWidget:focus, QTableView, QTableView:focus { /* Remove focus outline */
 outline:0;
 background:transparent;
-}
-
-QTreeWidget { /* Tree Background */
-background-color:#fcfcfc;
-alternate-background-color:#f2f2f2;
+	alternate-background-color: rgba(255, 255, 255, 25);
 color:#333;
 }
 
