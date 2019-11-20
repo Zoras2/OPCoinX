@@ -1466,17 +1466,17 @@ QDialog#CoinControlDialog .QDialogButtonBox#buttonBox QPushButton { /* Coin Cont
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioTreeMode { /* Coin Control Tree Mode Selector */
-color:#818181;
-background-color:transparent;
+color:#fff;
+background-color:#ff0000;
 }
 
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioListMode { /* Coin Control List Mode Selector */
-color:#818181;
-background-color:transparent;
+color:#fff;
+background-color:#ff00ea;
 }
 
 QDialog#CoinControlDialog QHeaderView::section:first { /* Bug Fix: the number "1" displays in this table for some reason... */
-color:transparent;
+color:#3c00ff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget { /* Coin Control Widget Container */
@@ -1494,7 +1494,7 @@ color:#fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:checked { /* Coin Control Item (checked) */
-background-color:#f7f7f7;
+background-color:#ffe400;
 color:#fff;
 }
 
@@ -1502,16 +1502,16 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:selected { /
 background-image: url(':/images/qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
-background-color:#f7f7f7;
-color:#333;
+background-color:#ff4800;
+color:#fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:checked { /* Coin Control Branch Icon */
 background-image: url(':/images/qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
-background-color:#f7f7f7;
-color:#333;
+background-color:#ccff00;
+color:#fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::seperator {
