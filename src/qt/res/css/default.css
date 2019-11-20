@@ -465,7 +465,7 @@ border-radius:3px;
 /**************************** DIALOG BOXES **********************************************/
 
 QDialog {
-background-color: #ff0000;
+background-color: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 }
 
 QDialog .QTabWidget {
