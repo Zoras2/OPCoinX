@@ -780,12 +780,10 @@ padding-right:10px;
 
 QDialog#RPCConsole .QGroupBox #line { /* Network In Line */
 background-color:#0b97dd;
-color:#333;
 }
 
 QDialog#RPCConsole .QGroupBox #line_2 { /* Network Out Line */
-background:#12cc0e;
-color:#333;
+background:#fff;
 }
 
 /**************************** HELP MENU *************************************************/
@@ -801,8 +799,7 @@ border:0;
 
 /* About Opcx Dialog */
 QDialog#AboutDialog QLabel {
-        background-color:#333;
-	color:#ff0000;
+        color:#ff0000;
     }
 QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Opcx Contents */
 margin-left:10px;
