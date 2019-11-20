@@ -118,7 +118,7 @@ color:#333;
 
 QToolTip {
 background-color:#dedbe5;
-color:#ff00ea;
+color:#4d6280;
 }
 
 QTextEdit {
@@ -130,7 +130,7 @@ color:#333;
 
 QLabel { /* Base Text Size & Color */
 font-size:11px;
-color:#ffe400;
+color:#f7f7f7;
 font-family: 'Share Tech Mono', monospace;
 }
 
@@ -140,9 +140,9 @@ font-family: 'Share Tech Mono', monospace;
 }
 
 .QCheckBox { /* Checkbox Labels */
-color:#ccff00;
+color:#e8e8e8;
 font-size:11px;
-background-color:transparent;
+background-color:#4b2700;
 font-family: 'Share Tech Mono', monospace;
 }
 
@@ -157,7 +157,7 @@ min-height:25px;
 outline:0;
 padding:3px;
 background-color:#fcfcfc;
-color:#095b24;
+color:#333333;
 }
 
 .QLineEdit:!focus {
