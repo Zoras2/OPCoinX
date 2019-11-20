@@ -76,7 +76,7 @@ font-weight:bold;
 
 QProgressBar {
 color:#fff;
-font-size:11px;
+font-size:10px;
 border:1px solid grey;
 border-radius:5px;
 background-color:transparent;
@@ -334,11 +334,11 @@ border:0
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
 background:transparent;
 border:1px solid #333;
-font-size:18px;
+font-size:11px;
 }
 
 QTableView::item { /* Table Item */
-	font-size: 18px;
+	font-size: 10px;
 	color: #ffffff;
 }
 
@@ -350,6 +350,7 @@ QTableWidget {
 	background-color: transparent;
 	alternate-background-color: rgba(255, 255, 255, 25);
 	border: 1px solid #333
+font-size:11px;
 }
 
 QTableWidget:focus, QTableView, QTableView:focus { /* Remove focus outline */
@@ -568,7 +569,7 @@ padding-left:5px;
 }
 
 QDialog#SignVerifyMessageDialog QLineEdit:!focus { /* Font Hack */
-font-size:11px;
+font-size:9px;
 }
 
 QDialog#SignVerifyMessageDialog QPushButton#copySignatureButton_SM { /* Copy Button */
