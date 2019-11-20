@@ -699,7 +699,7 @@ min-height:33px; /* base width of 25px for QLineEdit, plus padding and border */
 
 /* Options Dialog */
 QDialog#OptionsDialog QLabel {
-        color: #ff0000;
+        color: #b8b8b8;
     }
     
     QDialog#tradingDialog QLabel {
@@ -790,7 +790,9 @@ background:#ff2525;
 }
 
 /**************************** HELP MENU *************************************************/
-
+QDialog#HelpMessageDialog QLabel {
+        color: #000000;
+    }
 /* Command Line Options Dialog */
 QDialog#HelpMessageDialog QScrollArea * {
 background-color:#fff;
