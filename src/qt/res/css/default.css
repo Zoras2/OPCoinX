@@ -567,7 +567,7 @@ padding-left:5px;
 }
 
 QDialog#SignVerifyMessageDialog QLineEdit:!focus { /* Font Hack */
-font-size:9px;
+font-size:11px;
 }
 
 QDialog#SignVerifyMessageDialog QPushButton#copySignatureButton_SM { /* Copy Button */
@@ -698,6 +698,13 @@ min-height:33px; /* base width of 25px for QLineEdit, plus padding and border */
 }
 
 /* Options Dialog */
+QDialog#OptionsDialog QLabel {
+        color: #ff0000;
+    }
+    
+    QDialog#tradingDialog QLabel {
+        color: #ff00ea;
+    }
 QDialog#OptionsDialog QValueComboBox, QDialog#OptionsDialog QSpinBox {
 margin-top:5px;
 margin-bottom:5px;
