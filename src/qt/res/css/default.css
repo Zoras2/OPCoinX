@@ -142,7 +142,7 @@ font-family: 'Share Tech Mono', monospace;
 .QCheckBox { /* Checkbox Labels */
 color:#e8e8e8;
 font-size:11px;
-background-color:#4b2700;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57, 97, 80), stop: .95 rgba(0, 57, 97, 80));
 font-family: 'Share Tech Mono', monospace;
 }
 
