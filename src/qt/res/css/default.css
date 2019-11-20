@@ -118,7 +118,7 @@ color:#333;
 
 QToolTip {
 background-color:#dedbe5;
-color:#ffe400;
+color:#333;
 }
 
 QTextEdit {
@@ -358,8 +358,8 @@ background:transparent;
 }
 
 QTreeWidget { /* Tree Background */
-	background-color:transparent;
-	alternate-background-color: rgba(255, 255, 255, 25);
+	background-color:#ff00ea;
+	alternate-background-color: #ffe400;
 color:#fff;
 }
 
@@ -780,12 +780,10 @@ padding-right:10px;
 
 QDialog#RPCConsole .QGroupBox #line { /* Network In Line */
 background-color:#0b97dd;
-color:#333;
 }
 
 QDialog#RPCConsole .QGroupBox #line_2 { /* Network Out Line */
 background:#12cc0e;
-color:#333;
 }
 
 /**************************** HELP MENU *************************************************/
@@ -800,9 +798,9 @@ border:0;
 }
 
 /* About Opcx Dialog */
-QDialog#AboutDialog QLabel {
-        	color:#ff0000;
-    }
+
+
+
 QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Opcx Contents */
 margin-left:10px;
 }
