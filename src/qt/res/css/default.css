@@ -319,31 +319,31 @@ border-right:1px solid #fff;
 padding-left:5px;
 padding-right:5px;
 padding-top:2px;
-padding-bottom:2px;
+padding-bottom:2px
 }
 
 QHeaderView::section:last {
-border-right:0;
+border-right:0
 }
 
 .QScrollArea {
 background:transparent;
-border:0;
+border:0
 }
 
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
 background:transparent;
 border:1px solid #333;
-font-size:11px;
+font-size:14px;
 }
 
 QTableView::item { /* Table Item */
-	font-size: 12px;
-	color: #c2c2c2;
+	font-size: 14px;
+	color: #ffe400;
 }
 
 QTableView::item:selected { /* Table Item Selected */
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.9);
 	color: #fff;
 }
 QTableWidget {
