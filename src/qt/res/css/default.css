@@ -76,7 +76,7 @@ font-weight:bold;
 
 QProgressBar {
 color:#fff;
-font-size:10px;
+font-size:11px;
 border:1px solid grey;
 border-radius:5px;
 background-color:transparent;
@@ -319,26 +319,26 @@ border-right:1px solid #fff;
 padding-left:5px;
 padding-right:5px;
 padding-top:2px;
-padding-bottom:2px
+padding-bottom:2px;
 }
 
 QHeaderView::section:last {
-border-right:0
+border-right:0;
 }
 
 .QScrollArea {
 background:transparent;
-border:0
+border:0;
 }
 
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
 background:transparent;
 border:1px solid #333;
-font-size:11px;
+font-size:18px;
 }
 
 QTableView::item { /* Table Item */
-	font-size: 10px;
+	font-size: 18px;
 	color: #ffffff;
 }
 
@@ -350,7 +350,6 @@ QTableWidget {
 	background-color: transparent;
 	alternate-background-color: rgba(255, 255, 255, 25);
 	border: 1px solid #333
-font-size:11px;
 }
 
 QTableWidget:focus, QTableView, QTableView:focus { /* Remove focus outline */
@@ -466,11 +465,7 @@ border-radius:3px;
 /**************************** DIALOG BOXES **********************************************/
 
 QDialog {
-	border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
-}
-AskPassphraseDialog {
-	border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
-	color:#fff;
+background-color: border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 }
 
 QDialog .QTabWidget {
@@ -700,13 +695,6 @@ min-height:33px; /* base width of 25px for QLineEdit, plus padding and border */
 }
 
 /* Options Dialog */
-QDialog#OptionsDialog QLabel {
-        color: #fff;
-    }
-    
-    QDialog#tradingDialog QLabel {
-        color: #ff00ea;
-    }
 QDialog#OptionsDialog QValueComboBox, QDialog#OptionsDialog QSpinBox {
 margin-top:5px;
 margin-bottom:5px;
@@ -792,9 +780,7 @@ background:#ff2525;
 }
 
 /**************************** HELP MENU *************************************************/
-QDialog#HelpMessageDialog QLabel {
-        color: #000000;
-    }
+
 /* Command Line Options Dialog */
 QDialog#HelpMessageDialog QScrollArea * {
 background-color:#fff;
@@ -804,16 +790,7 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-QDialog#Bip38ToolDialog QLabel {
-        color: #000000;
-    }
-    QDialog#MultiSendDialog QLabel {
-        color: #ffffff;
-    }
 /* About Opcx Dialog */
-QDialog#AboutDialog QLabel {
-        color: #000000;
-    }
 QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Opcx Contents */
 margin-left:10px;
 }
@@ -1499,7 +1476,7 @@ QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioListMode { /* Coin Co
 }
 
 QDialog#CoinControlDialog QHeaderView::section:first { /* Bug Fix: the number "1" displays in this table for some reason... */
-color:#3c00ff;
+color:transparent;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget { /* Coin Control Widget Container */
@@ -1517,24 +1494,24 @@ color:#fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:checked { /* Coin Control Item (checked) */
-	background-color: #f7f7f7;
-	color: #fff;
+background-color:#f7f7f7;
+color:#fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:selected { /* Coin Control Branch Icon */
 background-image: url(':/images/qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
-	background-color: #f7f7f7;
-	color: #333;
+background-color:#f7f7f7;
+color:#333;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:checked { /* Coin Control Branch Icon */
 background-image: url(':/images/qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
-	background-color: #f7f7f7;
-	color: #333;
+background-color:#f7f7f7;
+color:#333;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::seperator {
