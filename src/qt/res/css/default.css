@@ -465,10 +465,10 @@ border-radius:3px;
 /**************************** DIALOG BOXES **********************************************/
 
 QDialog {
-	border-image: url(':/images/walletFrame') 0 0 0 0 stretch stretch;
+	border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 }
 AskPassphraseDialog {
-	border-image: url(':/images/walletFrame') 0 0 0 0 stretch stretch;
+	border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 }
 
 QDialog .QTabWidget {
