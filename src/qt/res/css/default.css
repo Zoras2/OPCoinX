@@ -1485,17 +1485,17 @@ color:#3c00ff;
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget { /* Coin Control Widget Container */
 outline:0;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57, 97, 40), stop: .95 rgba(0, 57, 97, 40));
+background-color:transparent;
 border:1px solid #fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57, 97, 80), stop: .95 rgba(0, 57, 97, 80));;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(255, 255, 255, 80), stop: .95 rgba(255, 255, 255, 80));
 color:#fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57, 97, 80), stop: .95 rgba(0, 57, 97, 80));;
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57, 97, 80), stop: .95 rgba(0, 57, 97, 80));
 color:#fff;
 }
 
