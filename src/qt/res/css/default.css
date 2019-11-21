@@ -319,16 +319,16 @@ border-right:1px solid #fff;
 padding-left:5px;
 padding-right:5px;
 padding-top:2px;
-padding-bottom:2px
+padding-bottom:2px;
 }
 
 QHeaderView::section:last {
-border-right:0
+border-right:0;
 }
 
 .QScrollArea {
 background:transparent;
-border:0
+border:0;
 }
 
 .QTableView { /* Table - has to be selected as a class otherwise it throws off QCalendarWidget */
@@ -349,7 +349,7 @@ QTableView::item:selected { /* Table Item Selected */
 QTableWidget {
 	background-color: transparent;
 	alternate-background-color: rgba(255, 255, 255, 25);
-	border: 1px solid #333
+	border: 1px solid #333;
 }
 
 QTableWidget:focus, QTableView, QTableView:focus { /* Remove focus outline */
@@ -1528,8 +1528,8 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin
 
 }
     QTreeWidget { /* Tree Background */
-	background-color:#ffe400;
-	alternate-background-color:#ff4800;
+	background-color:transparent;
+	alternate-background-color:background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(255, 255, 255, 80), stop: .95 rgba(255, 255, 255, 80));
 	color:#fff;
     }
 
