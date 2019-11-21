@@ -347,8 +347,8 @@ QTableView::item:selected { /* Table Item Selected */
 	color: #fff;
 }
 QTableWidget {
-	background-color: #ff4800;
-	alternate-background-color:#ccff00;
+	background-color: transparent;
+	alternate-background-color: rgba(255, 255, 255, 25);
 	border: 1px solid #333
 }
 
@@ -1527,10 +1527,10 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::seperator {
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin Control Widget Checkbox */
 
 }
-    QDialog#OpcxControlDialog .QTreeWidget#treeWidget { /* Opcx Control Widget Container */
-    outline:0;
-    background-color:#ffe400;
-    border:1px solid #fff;
+    QTreeWidget { /* Tree Background */
+	background-color:#ffe400;
+	alternate-background-color:#ff4800;
+	color:#fff;
     }
 
 /**************************** RECEIVE COINS *********************************************/
