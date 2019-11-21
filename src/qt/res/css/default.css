@@ -34,7 +34,7 @@ background-color:#d2d2d2;
 }
 
 QMenu {
-background-color:#434850;
+background-color:url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 }
 
 QMenu::item {
@@ -504,7 +504,7 @@ color:#333;
 }
 
 QDialog .QTabWidget .QWidget {
-background-color:#434850;
+background-color:url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 color:#fff;
 }
 
