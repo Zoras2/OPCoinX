@@ -1529,7 +1529,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin
 }
     QTreeWidget { /* Tree Background */
 	background-color:transparent;
-	alternate-background-color:background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(255, 255, 255, 80), stop: .95 rgba(255, 255, 255, 80));
+	alternate-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(255, 255, 255, 80), stop: .95 rgba(255, 255, 255, 80));
 	color:#fff;
     }
 
