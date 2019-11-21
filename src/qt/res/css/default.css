@@ -793,10 +793,12 @@ background-color:#fff;
 QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScrollBar:horizontal {
 border:0;
 }
-
-/* About Opcx Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Opcx Contents */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Guapcoin Contents */
 margin-left:10px;
+}
+
+QDialog#AboutDialog QLabel#label { /* About Opcx Dialog */
+color: #000000;
 }
 
 QDialog#AboutDialog QLabel#label_2 { /* Margin for About Opcx text */
