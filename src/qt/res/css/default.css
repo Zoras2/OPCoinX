@@ -1508,7 +1508,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:selected { /
 background-image: url(':/images/qtreeview_selected');
 background-repeat:no-repeat;
 background-position:center;
-	background-color:transparent;
+	background-color:#f7f7f7;
 	color: #fff
 }
 
@@ -1527,6 +1527,11 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::seperator {
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin Control Widget Checkbox */
 
 }
+    QDialog#ControlDialog .QTreeWidget#treeWidget { /* Control Widget Container */
+    outline:0;
+    background-color:background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(255, 255, 255, 80), stop: .95 rgba(255, 255, 255, 80));
+    border:1px solid #fff;
+    }
 
 /**************************** RECEIVE COINS *********************************************/
 
