@@ -348,7 +348,7 @@ QTableView::item:selected { /* Table Item Selected */
 }
 QTableWidget {
 	background-color: transparent;
-	alternate-background-color: rgba(255, 255, 255, 25);
+	alternate-background-color:#ccff00;
 	border: 1px solid #333
 }
 
@@ -1480,7 +1480,7 @@ QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioListMode { /* Coin Co
 }
 
 QDialog#CoinControlDialog QHeaderView::section:first { /* Bug Fix: the number "1" displays in this table for some reason... */
-color:#3c00ff;
+color:transparent;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget { /* Coin Control Widget Container */
@@ -1527,7 +1527,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::seperator {
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin Control Widget Checkbox */
 
 }
-    QDialog#ControlDialog .QTreeWidget#treeWidget { /* Control Widget Container */
+    QDialog#OpcxControlDialog .QTreeWidget#treeWidget { /* Opcx Control Widget Container */
     outline:0;
     background-color:#ffe400;
     border:1px solid #fff;
