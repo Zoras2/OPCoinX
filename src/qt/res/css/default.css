@@ -34,7 +34,7 @@ background-color:#d2d2d2;
 }
 
 QMenu {
-border-image: url(':/images/splash_testnet') 0 0 0 0 stretch stretch;
+border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 }
 
 QMenu::item {
@@ -504,7 +504,7 @@ color:#333;
 }
 
 QDialog .QTabWidget .QWidget {
-border-image: url(':/images/splash_testnet') 0 0 0 0 stretch stretch;
+border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
 color:#fff;
 }
 
@@ -787,7 +787,7 @@ background:#12cc0e;
 
 /* Command Line Options Dialog */
 QDialog#HelpMessageDialog QScrollArea * {
-background-color:border-image: url(':/images/splash_testnet') 0 0 0 0 stretch stretch;
+background-color:#434850;
 }
 
 QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScrollBar:horizontal {
