@@ -42,7 +42,7 @@ color:#FFFFFF;
 }
 
 QMenu::item:selected {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57, 97, 80), stop: .95 rgba(0, 57, 97, 80));
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(0, 57, 97, 80), stop: .95 rgba(255, 255, 255, 80));
 color:#FFFFFF;
 }
 
@@ -787,8 +787,8 @@ background:#12cc0e;
 
 /* Command Line Options Dialog */
 QDialog#HelpMessageDialog QScrollArea * {
-border-image: url(':/images/splash_testnet') 0 0 0 0 stretch stretch;
-color:#fff;
+background-color:#fff;
+color:#000;
 }
 
 QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScrollBar:horizontal {
