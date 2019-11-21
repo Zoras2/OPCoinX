@@ -1485,12 +1485,12 @@ color:#3c00ff;
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget { /* Coin Control Widget Container */
 outline:0;
-background-color:transparent;
+background-color:#ff0000;
 border:1px solid #fff;
 }
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
-background-color:transparent;
+background-color:#ff00ea;
 color:#fff;
 }
 
@@ -1529,7 +1529,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin
 }
     QDialog#ControlDialog .QTreeWidget#treeWidget { /* Control Widget Container */
     outline:0;
-    background-color:background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .1 rgba(255, 255, 255, 80), stop: .95 rgba(255, 255, 255, 80));
+    background-color:#ffe400;
     border:1px solid #fff;
     }
 
