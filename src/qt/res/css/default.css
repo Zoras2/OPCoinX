@@ -355,7 +355,7 @@ QTableWidget {
 QTableWidget:focus, QTableView, QTableView:focus { /* Remove focus outline */
 outline:0;
 background:transparent;
-	alternate-background-color: rgba(255, 255, 255, 25);
+	alternate-background-color: #ff4800;
 color:#333;
 }
 
