@@ -787,7 +787,7 @@ background:#12cc0e;
 
 /* Command Line Options Dialog */
 QDialog#HelpMessageDialog QScrollArea * {
-background-color:#fff;
+background-color:#ff4800;
 }
 
 QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScrollBar:horizontal {
@@ -802,6 +802,7 @@ color:#000;
 
 QDialog#AboutDialog QLabel#label_2 { /* Margin for About Opcx text */
 margin-right:10px;
+color:#000;
 }
 
 /* Edit Address Dialog */
