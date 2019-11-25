@@ -94,7 +94,7 @@
                 </font>
                </property>
                <property name="text">
-                <string>OVERVIEW</string>
+                <string>Overview</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -108,8 +108,8 @@
                </property>
                <property name="sizeHint" stdset="0">
                 <size>
-                 <width>40</width>
-                 <height>20</height>
+                 <width>20</width>
+                 <height>10</height>
                 </size>
                </property>
               </spacer>
