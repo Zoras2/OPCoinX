@@ -282,7 +282,7 @@
                      <item>
                       <layout class="QGridLayout" name="gridLayout_3">
                        <property name="spacing">
-                        <number>50</number>
+                        <number>12</number>
                        </property>
                        <item row="1" column="0">
                         <widget class="QLabel" name="labelBalanceTextz">
