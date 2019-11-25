@@ -88,7 +88,7 @@
                </property>
                <property name="font">
                 <font>
-                 <pointsize>10</pointsize>
+                 <pointsize>20</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
@@ -108,8 +108,8 @@
                </property>
                <property name="sizeHint" stdset="0">
                 <size>
-                 <width>80</width>
-                 <height>40</height>
+                 <width>40</width>
+                 <height>20</height>
                 </size>
                </property>
               </spacer>
@@ -295,7 +295,7 @@
                         <widget class="QLabel" name="labelBalancez">
                          <property name="font">
                           <font>
-                           <weight>150</weight>
+                           <weight>75</weight>
                            <bold>true</bold>
                           </font>
                          </property>
@@ -327,7 +327,7 @@
                         <widget class="QLabel" name="labelTotalz">
                          <property name="font">
                           <font>
-                           <weight>150</weight>
+                           <weight>75</weight>
                            <bold>true</bold>
                           </font>
                          </property>
@@ -487,7 +487,7 @@
                         <widget class="QLabel" name="labelBalance">
                          <property name="font">
                           <font>
-                           <weight>150</weight>
+                           <weight>75</weight>
                            <bold>true</bold>
                           </font>
                          </property>
@@ -601,7 +601,7 @@
                         <widget class="QLabel" name="labelImmature">
                          <property name="font">
                           <font>
-                           <weight>150</weight>
+                           <weight>75</weight>
                            <bold>true</bold>
                           </font>
                          </property>
@@ -661,7 +661,7 @@
                         <widget class="QLabel" name="labelLockedBalance">
                          <property name="font">
                           <font>
-                           <weight>150</weight>
+                           <weight>75</weight>
                            <bold>true</bold>
                           </font>
                          </property>
@@ -721,7 +721,7 @@
                         <widget class="QLabel" name="labelTotal">
                          <property name="font">
                           <font>
-                           <weight>150</weight>
+                           <weight>75</weight>
                            <bold>true</bold>
                           </font>
                          </property>
